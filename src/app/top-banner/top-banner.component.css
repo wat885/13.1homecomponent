@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    /* background-color: #FB5731; */
+    padding: 10px;
+    height: 25vh;
+  }
+  
+  .grid-container  div {
+    background-color: #FB5731;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .item1 {
+    grid-row: 1 / 3;
+  }

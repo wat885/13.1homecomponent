@@ -1,0 +1,23 @@
+img{
+    width: 100px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 5%;
+    padding-top: 15px;
+}
+
+i{
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.search{
+    font-size:30px;
+    text-align: center;
+    
+}

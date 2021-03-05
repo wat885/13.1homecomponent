@@ -1,0 +1,26 @@
+.gridNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.leftMenu{
+
+}
+.rightMenu{
+    text-align: right;
+}
+
+a{
+    padding: 0 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    color: rgb(211, 201, 201);
+}
+  
+a.active {
+    color: white;
+}

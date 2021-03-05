@@ -1,0 +1,31 @@
+.content {
+    /* background-color: #FB5731; */
+    /* border: 0.5px solid black; */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.grid{
+    width: 80%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10vh  26vh 20vh;
+    grid-template-areas: 
+        'navbar navbar'
+        'topBanner topBanner'
+        'Category Category'
+    ;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.topBanner{
+    grid-area: topBanner;
+}
+.Category{
+    grid-area: Category;
+}
